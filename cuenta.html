@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+    <style>
+      body {
+        background-color: #010532;
+        color:#fff            
+        }
+      h1{text-align: left;}
+    </style>
+  </head>
+ 
+  <body>
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg bg-body-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./image/Disney logo.png" width="100px" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Inicio</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html #Milista">Mi lista</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categoría
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="home.html #Clasica">Clásica</a></li>
+                  <li><a class="dropdown-item" href="home.html #Accion">Acción</a></li>
+                  <li><a class="dropdown-item" href="home.html #Marvel">Marvel</a></li>
+                  <li><a class="dropdown-item" href="home.html #Pixar">Pixar</a></li>
+                  <li><a class="dropdown-item" href="home.html #AventurasMágicas">Aventuras Mágicas</a></li>
+                  <li><a class="dropdown-item" href="home.html #Romance">Romance</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Peliculas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Series</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+          </form>
+          <a href="cuenta.html">
+            <button type="button" class="btn btn-outline-light">Cuenta</button>
+          </a>
+        </div>
+      </div>
+    </nav>  
+ 
+    <!-- Contenido -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+ 
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <a href="perfiles.html" class="btn btn-outline-light" role="button" >Administrar Perfiles</a>
+      <a href="registrarse.html" class="btn btn-outline-light" role="button" >Configuración</a>
+      <a href="ayuda.html" class="btn btn-outline-light" role="button" >Ayuda</a>
+      <a href="index.html" class="btn btn-outline-light" role="button" >Cerrar Sesión</a>
+    </div>
+     
+  </body>
+ 
+  <!-- FOOTER -->
+  <footer class="footer" >
+    <div class="contenedor-logofooter" >
+        <img class="logo-footer" src="./image/Disney logo.png" width="10%" alt="logo">
+    </div>
+    <h6 class="footertext1">© 2023 Disney y su familia de compañías afiliadas. Todos los derechos reservados.</h6>
+    <h7 class="footertext2">Disney+ es un servicio por suscripción de pago, su contenido está sujeto a disponibilidad. El servicio Disney+ es comercializado por The Walt Disney Company (Argentina) S.A.,</h7>
+    <h7 class="footertext2">Tucumán 1, Piso 4º (C1049AAA) Ciudad Autónoma de Buenos Aires, Argentina y número de CUIT 30-63984459-1.</h8>
+ 
+  </footer>
+</html>

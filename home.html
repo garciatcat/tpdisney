@@ -1,0 +1,1028 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+    <style>
+      body {
+        background-color: #010532;
+        color:#fff            
+        }
+      h1{text-align: left;}
+    </style>
+  </head>
+ 
+  <body>
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg bg-body-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./image/Disney logo.png" width="100px" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="perfiles.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Milista">Mi lista</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categoría
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#clasica">Clásica</a></li>
+                  <li><a class="dropdown-item" href="#Accion">Acción</a></li>
+                  <li><a class="dropdown-item" href="#Marvel">Marvel</a></li>
+                  <li><a class="dropdown-item" href="#Pixar">Pixar</a></li>
+                  <li><a class="dropdown-item" href="#AventurasMágicas">Aventuras Mágicas</a></li>
+                  <li><a class="dropdown-item" href="#Romance">Romance</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Peliculas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Series</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+          </form>
+          <a href="cuenta.html">
+            <button type="button" class="btn btn-outline-light">Cuenta</button>
+          </a>
+        </div>
+      </div>
+    </nav>  
+ 
+    <!-- CONTENIDO -->
+    <!-- CLASICAS -->
+   
+    <h1 class=card-title2>Clásicas</h1>
+    <section id="Clasicas">
+      <div class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <a href="pinocchio.html"> <img src="./image/Pinocchio.jpeg" alt="Pinocchio" /></a>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <a href="fantasia.html"><img src="./image/Fantasia.jpeg" alt="Fantasia" /></a>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/Bambi.jpeg" alt="Bambi" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/Dumbo.jpeg" alt="Dumbo" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/BlancaNieves.jpeg" alt="BlancaNieves" />
+                    </button>
+                  </div>
+                </div>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <link href=https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&family=Lemonada:wght@300&display=swap rel="stylesheet"><h5 class="card-title">PINOCCHIO</h5>
+                    <p class="card-text">Pepe Grillo cuenta la historia de una marioneta de madera que tiene la oportunidad de convertirse en un chico real.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">FANTASIA</h5>
+                    <p class="card-text">Se plasma la visión de Disney al mezclar la imaginación animada con la música clásica</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">BAMBI</h5>
+                    <p class="card-text">Un joven ciervo llamado Bambi descubre los valores de la vida en su camino hacia la edad adulta. Lo acompañarán sus nuevos amigos.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">DUMBO</h5>
+                    <p class="card-text">El bebé elefante de un circo tiene orejas grandes, es ridiculizado y luego aprende a volar.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">BLANCANIEVES</h5>
+                    <p class="card-text">Una joven criada por una malvada Reina quien, envidiando su belleza, decide matarla tendiendole una trampa en el bosque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+            <!-- Segunda  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <a href="elreyleon.html"> <img src="./image/el rey leon.jpeg" alt="el rey leon" /></a>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/La bella y la Bestia.jpeg" alt="la bella y la bestia" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/Aladin.jpeg" alt="Aladdin" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/Peter Pan.jpeg" alt="peter pan" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">EL REY LEÓN </h5>
+                    <p class="card-text">Tras la muerte de su padre, Simba vuelve a enfrentar a su malvado tío, Scar, y reclamar el trono de rey</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LA BELLA Y LA BESTIA</h5>
+                    <p class="card-text">Una doncella francesa toma el lugar de su padre secuestrado en el castillo encantado de un príncipe embrujado, el amor es lo único que podrá devolverle su forma humana.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">ALADDIN</h5>
+                    <p class="card-text">Aladdin es un adorable pilluelo que conoce a la princesa Jasmine y a un genio poderoso, bromista y grandioso.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">PETER PAN</h5>
+                    <p class="card-text">Peter y Campanita llevan a tres niños al país de Nunca Jamás para ver a los niños perdidos, a los indios, al capitán Garfio y a sus piratas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ACCION -->
+    <h1 class=card-title2>Acción</h1>
+    <section id="Accion">
+      <div class="carousel">
+        <div id="carouselExampleIndicators1" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <a href="avatar.html"> <img src="./image/avatar.jpeg" alt="Avatar" /></a>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/zootpopia.jpeg" alt="Zootopia" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/percy jackson.jpeg" alt="Percy Jackson" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/mulan.jpeg" alt="Mulan" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/vengadores.jpeg" alt="Vengadores" />
+                    </button>
+                  </div>
+                </div>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">AVATAR</h5>
+                    <p class="card-text">En un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">ZOOTOPIA</h5>
+                    <p class="card-text">La metrópoli Zootopía es una ciudad de mamíferos, donde muchos animales viven y se desarrollan.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">PERCY JACKSON</h5>
+                    <p class="card-text">Para encontrar el mágico Vellocino de Oro y salvar el campamento Half-Blood, Percy y sus amigos realizan una peligrosa odisea a un área conocida por los humanos como el Triángulo de las Bermudas.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">MULAN</h5>
+                    <p class="card-text">El ejército de los Hunos, encabezado por el malvado Shun Yiu, quiere conquistar China. El emperador obliga  a todos los varones a alistarse en el Ejército para proteger el imperio.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">VENGADORES</h5>
+                    <p class="card-text">El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+            <!-- Segunda  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/ironman.jpeg" alt="el rey leon" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/los increibles.jpeg" alt="la bella y la bestia" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/x-men.jpeg" alt="Aladdin" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/grandes heroes.jpeg" alt="grandes heroes" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">IRON MAN</h5>
+                    <p class="card-text">Tras la muerte de su padre, Simba vuelve a enfrentar a su malvado tío, Scar, y reclamar el trono de rey</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LOS INCREIBLES</h5>
+                    <p class="card-text">Un superhéroe retirado lucha contra el aburrimiento y, junto a su familia, tiene la oportunidad de salvar al mundo.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">X-MEN</h5>
+                    <p class="card-text">Un empresario millonario construye un traje blindado y lo usa para combatir el crimen y el terrorismo.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">GRANDES HEROES</h5>
+                    <p class="card-text">Cuando un giro inesperado de eventos los sumerge en el medio de un peligroso plan, un niño prodigio, su robot y sus amigos se convierten en héroes de alta tecnología en una misión para salvar su ciudad.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+    <!-- CARROUSEL        -->
+    <!-- MI LISTA        -->
+    <h1 class=card-title2>Mi lista</h1>
+    <section id="Milista">
+      <div class="carousel">
+        <div id="carouselExampleIndicators2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">            
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <a href="cars.html"><img src="./image/cars.jpeg" alt="Cars" /></a>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/encantada.jpeg" alt="Encantada" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/capitana marvel.jpeg" alt="Capitana Marvel" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/avatar.jpeg" alt="Avatar" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/coco.jpeg" alt="Coco" />
+                    </button>
+                  </div>
+                </div>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">CARS</h5>
+                    <p class="card-text">De camino al prestigiado campeonato Copa Pistón, un automóvil de carreras que solo se preocupa por ganar.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">ENCANTADA</h5>
+                    <p class="card-text">Giselle, la princesa de iun cuento de hadas, es desterrada por una reina malvada y termina en el Manhattan moderno.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">CAPITANA MARVEL</h5>
+                    <p class="card-text">Una guerrera extraterreste de la civilización Kree se encuentra atrapada en medio de una batalla.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">AVATAR</h5>
+                    <p class="card-text">En un exuberante planeta llamado Pandora viven los Na'vi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">COCO</h5>
+                    <p class="card-text">Miguel es un niño que sueña con ser musico, pero su familia no se lo permote.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+   
+            <!-- Segunda  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/la cenicienta.jpeg" alt="Cenicienta" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/diario de una princesa.jpeg" alt="Diario de una princesa" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/juego de gemelas.jpeg" alt="Juego de gemelas" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/la ultima cancion.jpeg" alt="La ultima canción" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">LA CENICIENTA</h5>
+                    <p class="card-text">Con una malvada madrastra y dos hermanastras celosas que la mantienen esclavizada y en harapos.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">DIARIO DE UNA PRINCESA</h5>
+                    <p class="card-text">La reina de una pequeña comunidad europea instruye a su rebelde nieta en los menesteres de la realeza.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">JUEGO DE GEMELAS</h5>
+                    <p class="card-text">Una niña de 11 años conoce a su gemela en California.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LA ULTIMA CANCIÓN</h5>
+                    <p class="card-text">En una ciudad de playa del sur, un hombre intenta entrar en contacto con su hija distanciada a traves de su amor compartido por la música.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+            <!-- Tercera  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/thor.jpeg" alt="Thor" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/IntensaMente.jpeg" alt="IntensaMente" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/Aladin.jpeg" alt="Aladdin" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/x-men.jpeg" alt="X-Men" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">THOR</h5>
+                    <p class="card-text">Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">INTENSAMENTE</h5>
+                    <p class="card-text">Las cinco emociones que conviven en el interior de una niña llamada Riley, alegría, miedo, desagrado, ira y tristeza, compiten por tomar el control de sus acciones cuando la pequeña se traslada, junto a su familia, a vivir a San Francisco.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">ALADDIN</h5>
+                    <p class="card-text">Aladdin es un adorable pilluelo que conoce a la princesa Jasmine y a un genio poderoso, bromista y grandioso.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">X-MEN</h5>
+                    <p class="card-text">El profesor Xavier lidera a Wolverine y otros superhéroes contra Magneto, un mutante que busca dominar a la humanidad.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+   
+    <!-- Marvel    -->
+    <h1 class=card-title2>Marvel</h1>
+    <section id="Marvel">
+      <div class="carousel">
+        <div id="carouselExampleIndicators3" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/capitana marvel.jpeg" alt="Capitana Marvel" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/guardianes de la galaxia.jpeg" alt="Guardianes de la galaxia" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/black widow.jpeg" alt="Black Widow" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/ironman.jpeg" alt="Iron man" />
+                    </button>
+                  </div>
+                </div>                  
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">CAPITANA MARVEL</h5>
+                    <p class="card-text">Una guerrera extraterreste de la civilización Kree se encuentra atrapada en medio de una batalla.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">GUARDIANES DE LA GALAXIA</h5>
+                    <p class="card-text">Aunque sigue afectado por la  pérdida de Gamora, Peter Quill  debe reunir a su equipo para defender el universo de una nueva amenaza.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">BLACK WIDOW</h5>
+                    <p class="card-text">Una peligrosa conspiración, relacionada con su pasado, persigue a Natasha Romanoff, también conocida como ViudaNegra.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">IRON MAN</h5>
+                    <p class="card-text">Un empresario millonario construye un traje blindado y lo usa para combatir el crimen y el terrorismo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+            <!-- Segunda  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/thor.jpeg" alt="thor" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/x-men.jpeg" alt="x-men" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/venom.jpeg" alt="venom" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/doctor strage.jpeg" alt="Doctor strange" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">THOR</h5>
+                    <p class="card-text">Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">X-MEN</h5>
+                    <p class="card-text">El profesor Xavier lidera a Wolverine y otros superhéroes contra Magneto, un mutante que busca dominar a la humanidad.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">VENOM</h5>
+                    <p class="card-text">Después de encontrar un cuerpo anfitrión en el periodista de investigación Eddie Brock, el simbionte alienígena debe enfrentarse a un nuevo enemigo, Carnage, el alter ego del asesino en serie Cletus Kasady.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">DOCTOR STRANGE</h5>
+                    <p class="card-text">Después de sufrir un accidente, un brillante y arrogante cirujano busca rehabilitarse mediante técnicas alternativas</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>    
+   
+    <!-- Pixar   -->
+    <h1 class=card-title2>Pixar</h1>
+    <section id="Pixar">
+      <div class="carousel">
+        <div id="carouselExampleIndicators4" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <a href="cars.html"><img src="./image/cars.jpeg" alt="Cars" /></a>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/toy story.jpeg" alt="Toy story" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/buscando a nemo.jpeg" alt="Buscando a nemo" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/coco.jpeg" alt="Coco" />
+                    </button>
+                  </div>
+                </div>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">CARS</h5>
+                    <p class="card-text">De camino al prestigiado campeonato Copa Pistón, un automóvil de carreras que solo se preocupa por ganar.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">TOY STORY</h5>
+                    <p class="card-text">Woody, el juguete favorito de Andy, se siente amenazado por la inesperada llegada de Buzz.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">BUSCANDO A NEMO</h5>
+                    <p class="card-text">Marlin, un pez payaso, siempre ha intentado proteger de todos los peligros a su hijo.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">COCO</h5>
+                    <p class="card-text">Miguel es un niño que sueña con ser musico, pero su familia no se lo permote.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <!-- Segunda  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/elementos.jpeg" alt="Elementos" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/IntensaMente.jpeg" alt="IntensaMente" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/los increibles.jpeg" alt="Los increibles" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/Ratatouille.jpeg" alt="Ratatouille" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">ELEMENTOS</h5>
+                    <p class="card-text">En una ciudad en la que los elementos de fuego, agua, tierra y aire viven en distritos separados, una chica de fuego y un chico de agua descubren que, aunque la sociedad les diga lo contrario, tienen muchas cosas en común.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">INTENSAMENTE</h5>
+                    <p class="card-text">Las cinco emociones que conviven en el interior de una niña llamada Riley, alegría, miedo, desagrado, ira y tristeza, compiten por tomar el control de sus acciones cuando la pequeña se traslada, junto a su familia, a vivir a San Francisco.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LOS INCREIBLES</h5>
+                    <p class="card-text">Un superhéroe retirado lucha contra el aburrimiento y, junto a su familia, tiene la oportunidad de salvar al mundo.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">DOCTOR STRANGE</h5>
+                    <p class="card-text">Remy es un residente de París que aprecia la buena comida y tiene un paladar bastante sofisticado. Él desea convertirse en un chef para crear y disfrutar de diversas obras de arte culinarias.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>  
+    </section>
+   
+    <!-- Aventuras Mágicas   -->
+    <h1 class=card-title2>Aventuras Mágicas</h1>
+    <section id="AventurasMágicas">
+      <div class="carousel">
+        <div id="carouselExampleIndicators5" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/descendientes.jpeg" alt="Descendientes" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/frozen.jpeg" alt="Frozen" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/encantada.jpeg" alt="Encantada" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/twitches.jpeg" alt="Twitches" />
+                    </button>
+                  </div>
+                </div>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">DESCENDIENTES</h5>
+                    <p class="card-text">Los hijos de los villanos se reúnen en Auradon y cambian sus vidas.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">FROZEN</h5>
+                    <p class="card-text">Una joven princesa valiente se establece con un montañista para encontrar a su hermana, cuyos poderes gélidos han atrapado a su reino en el invierno eterno. </p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">ENCANTADA</h5>
+                    <p class="card-text">Giselle, la princesa de iun cuento de hadas, es desterrada por una reina malvada y termina en el Manhattan moderno.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">TWITCHES</h5>
+                    <p class="card-text">Unas gemelas, que se han reencontrado en su cumpleaños  n°.21, usan sus poderes mágicos para salvar al reino de las fuerzas del mal.</p>
+                  </div>
+                </div>
+              </div>  
+            </div>
+         
+            <!-- Segunda  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/malefica.jpeg" alt="Maléfica" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/Peter Pan.jpeg" alt="Peter Pan" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/La bella y la Bestia.jpeg" alt="L bella y la bestia" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/la bella durmiente.jpeg" alt="LA BELLA DURMIENTE" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">MALÉFICA</h5>
+                    <p class="card-text">La joven Maléfica crece para proteger su pacífico reino de los invasores, pero una terrible traición transforma su corazón puro en una piedra y la convierte en una criatura en busca de venganza.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">PETER PAN</h5>
+                    <p class="card-text">Peter y Campanita llevan a tres niños al país de Nunca Jamás para ver a los niños perdidos, a los indios, al capitán Garfio y a sus piratas.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LA BELLA Y LA BESTIA</h5>
+                    <p class="card-text">Una doncella francesa toma el lugar de su padre secuestrado en el castillo encantado de un príncipe embrujado, el amor es lo único que podrá devolverle su forma humana.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LA BELLA DURMIENTE</h5>
+                    <p class="card-text">Tres hadas madrinas y un apuesto príncipe salvan a la princesa Aurora de la maldición de la bruja Maléfica.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <!-- Romance  -->
+    <link href=https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&family=Fredericka+the+Great&family=Lemonada:wght@300&display=swap rel="stylesheet">
+    <h1 class=card-title2>Romance</h1>
+    <section id="Romance">
+      <div class="carousel">
+        <div id="carouselExampleIndicators6" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+           
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/la cenicienta.jpeg" alt="Cenicienta" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/diario de una princesa.jpeg" alt="Diario de una princesa" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/juego de gemelas.jpeg" alt="Juego de gemelas" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/la ultima cancion.jpeg" alt="La ultima canción" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">LA CENICIENTA</h5>
+                    <p class="card-text">Con una malvada madrastra y dos hermanastras celosas que la mantienen esclavizada y en harapos.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">DIARIO DE UNA PRINCESA</h5>
+                    <p class="card-text">La reina de una pequeña comunidad europea instruye a su rebelde nieta en los menesteres de la realeza.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">JUEGO DE GEMELAS</h5>
+                    <p class="card-text">Una niña de 11 años conoce a su gemela en California.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LA ULTIMA CANCIÓN</h5>
+                    <p class="card-text">En una ciudad de playa del sur, un hombre intenta entrar en contacto con su hija distanciada a traves de su amor compartido por la música.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+            <!-- Segunda  -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/la dama y el vagabundo.jpeg" alt="La dama y el vagabundo" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/la sirenita.jpeg" alt="La sirenita" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/La bella y la Bestia.jpeg" alt="La bella y la Bestia" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/enredados.jpeg" alt="Enredados" />
+                    </button>
+                  </div>
+                </div>                    
+                <div class="row align-items-start">
+                  <div class="col">
+                    <h5 class="card-title">LA DAMA Y EL VAGABUNDO</h5>
+                    <p class="card-text">La vida es fácil para Reina, una cocker spaniel mimada en su hogar. Cuando llega un bebé a la familia, Reina deja de ser el centro de atención.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LA SIRENITA</h5>
+                    <p class="card-text">Una joven sirena que anhela conocer el mundo que se extiende donde acaba el mar emerge a la superficie y se enamora del príncipe Eric.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">LA BELLA Y LA BESTIA</h5>
+                    <p class="card-text">Una doncella francesa toma el lugar de su padre secuestrado en el castillo encantado de un príncipe embrujado, el amor es lo único que podrá devolverle su forma humana.</p>
+                  </div>
+                  <div class="col">
+                    <h5 class="card-title">ENREDADOS</h5>
+                    <p class="card-text">Rapunzel, quien fue confinada a una torre cuando era pequeña, desea salir al mundo exterior. Cuando el ladrón más buscado del reino, Flynn Rider, se esconde en la torre, la adolescente decide hacer un trato con él.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+ 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+  </body>
+</html>

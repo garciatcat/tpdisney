@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+    <style>
+      body {
+        background-color: #010532;
+        color:#fff            
+        }
+      h1{text-align: left;}
+    </style>
+  </head>
+ 
+  <body>
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg bg-body-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./image/Disney logo.png" width="100px" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html #Milista ">Mi lista</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categoría
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="home.html #Clasica">Clásica</a></li>
+                  <li><a class="dropdown-item" href="home.html #Accion">Acción</a></li>
+                  <li><a class="dropdown-item" href="home.html #Marvel">Marvel</a></li>
+                  <li><a class="dropdown-item" href="home.html #Pixar">Pixar</a></li>
+                  <li><a class="dropdown-item" href="home.html #AventurasMágicas">Aventuras Mágicas</a></li>
+                  <li><a class="dropdown-item" href="home.html #Romance">Romance</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Peliculas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Series</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+          </form>
+          <a href="cuenta.html">
+            <button type="button" class="btn btn-outline-light">Cuenta</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+ 
+    <!-- CONTENIDO -->
+ 
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <button type="button" class="btn btn-dark"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            <a href="cars.html"> <img src="./image/cars film.jpeg" alt="Cars" /></a>
+          </button>
+        </div>
+        <div class="col">
+          <img src="./image/edad pinocchio.jpeg" alt="+8EDAD" />
+          <link href=https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&family=Lemonada:wght@300&display=swap rel="stylesheet">
+          <h2 class="card-title1">CARS</h2>
+          <p class="card-text">El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.</p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-primary btn-sm">INICIAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Pixar   -->
+    <link href=https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&family=Fredericka+the+Great&family=Lemonada:wght@300&display=swap rel="stylesheet">
+    <h1 class=card-title2>Pixar</h1>
+    <section id="Pixar">
+      <div class="carousel">
+        <div id="carouselExampleIndicators4" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Primera  -->
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/cars.jpeg" alt="Cars" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/toy story.jpeg" alt="Toy story" />
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-dark"
+                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                      <img src="./image/buscando a nemo.jpeg" alt="Buscando a nemo" />
+                    </button>
+                  </div>
+                  <div class="col">
+                  <button type="button" class="btn btn-dark"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    <img src="./image/coco.jpeg" alt="Coco" />
+                  </button>
+                </div>
+              </div>
+            <div class="row align-items-start">
+              <div class="col">
+                <h5 class="card-title">CARS</h5>
+                <p class="card-text">De camino al prestigiado campeonato Copa Pistón, un automóvil de carreras que solo se preocupa por ganar.</p>
+              </div>
+              <div class="col">
+                <h5 class="card-title">TOY STORY</h5>
+                <p class="card-text">Woody, el juguete favorito de Andy, se siente amenazado por la inesperada llegada de Buzz.</p>
+              </div>
+              <div class="col">
+                <h5 class="card-title">BUSCANDO A NEMO</h5>
+                <p class="card-text">Marlin, un pez payaso, siempre ha intentado proteger de todos los peligros a su hijo.</p>
+              </div>
+              <div class="col">
+                <h5 class="card-title">COCO</h5>
+                <p class="card-text">Miguel es un niño que sueña con ser musico, pero su familia no se lo permote.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <!-- Segunda  -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <button type="button" class="btn btn-dark"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                  <img src="./image/elementos.jpeg" alt="Elementos" />
+                </button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-dark"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                  <img src="./image/IntensaMente.jpeg" alt="IntensaMente" />
+                </button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-dark"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                  <img src="./image/los increibles.jpeg" alt="Los increibles" />
+                </button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-dark"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                  <img src="./image/Ratatouille.jpeg" alt="Ratatouille" />
+                </button>
+              </div>
+            </div>                    
+            <div class="row align-items-start">
+              <div class="col">
+                <h5 class="card-title">ELEMENTOS</h5>
+                <p class="card-text">En una ciudad en la que los elementos de fuego, agua, tierra y aire viven en distritos separados, una chica de fuego y un chico de agua descubren que, aunque la sociedad les diga lo contrario, tienen muchas cosas en común.</p>
+              </div>
+              <div class="col">
+                <h5 class="card-title">INTENSAMENTE</h5>
+                <p class="card-text">Las cinco emociones que conviven en el interior de una niña llamada Riley, alegría, miedo, desagrado, ira y tristeza, compiten por tomar el control de sus acciones cuando la pequeña se traslada, junto a su familia, a vivir a San Francisco.</p>
+              </div>
+              <div class="col">
+                <h5 class="card-title">LOS INCREIBLES</h5>
+                <p class="card-text">Un superhéroe retirado lucha contra el aburrimiento y, junto a su familia, tiene la oportunidad de salvar al mundo.</p>
+              </div>
+              <div class="col">
+                <h5 class="card-title">DOCTOR STRANGE</h5>
+                <p class="card-text">Remy es un residente de París que aprecia la buena comida y tiene un paladar bastante sofisticado. Él desea convertirse en un chef para crear y disfrutar de diversas obras de arte culinarias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
